@@ -10,7 +10,28 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+
         
+        
+        
+        
+/*
+        NSError *error;
+        NSString *str = [[NSString alloc] initWithContentsOfFile:@"/etc/resolv.conf"
+                                                        encoding:NSASCIIStringEncoding
+                                                           error:&error];
+        
+        if (!str) {
+            NSLog(@"read failed: %@", [error localizedDescription]);
+            
+        } else {
+            NSLog(@"resolv.conf looks like this: %@", str);
+        }
+        
+ */
+        
+ /*
+ 
         NSMutableString *str = [[NSMutableString alloc] init];
         for (int i = 0; i < 10; i++) {
             [str appendString:@"Aaron is cool!\n"];
@@ -34,7 +55,7 @@ int main(int argc, const char * argv[]) {
         } else {
             NSLog(@"writing /tmp/cool.txt failed: %@", [error localizedDescription]);
         }
-        
+*/
     }
     return 0;
 }
